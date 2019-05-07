@@ -151,6 +151,10 @@
           <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Meeting Times</h1>
           <hr class="mt-2 mb-5">
 
+ <div class="row">
+  <div class="col-sm-6">
+  <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Monthly Meetings</h3>
+  <br>
           <table class="table">
             <thead class="thead-light">
               <tr>
@@ -179,8 +183,113 @@
                 <td>18:00</td>
                 <td>Courtenay Public Library</td>
               </tr>
+              <tr>
+                <th scope="row">August</th>
+                <td>5th</td>
+                <td>18:00</td>
+                <td>Courtenay Public Library</td>
+              </tr>
+              <tr>
+                <th scope="row">September</th>
+                <td>2nd</td>
+                <td>18:00</td>
+                <td>Courtenay Public Library</td>
+              </tr>
+              <tr>
+                <th scope="row">October</th>
+                <td>7th</td>
+                <td>18:00</td>
+                <td>Courtenay Public Library</td>
+              </tr>
+              <tr>
+                <th scope="row">November</th>
+                <td>4th</td>
+                <td>18:00</td>
+                <td>Courtenay Public Library</td>
+              </tr>
+              <tr>
+                <th scope="row">December</th>
+                <td>2nd</td>
+                <td>18:00</td>
+                <td>Courtenay Public Library</td>
+              </tr>
+  
+            </tbody>
+          </table></div>
+  <div class="col-sm-6"> 
+<h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Weekly Sky Watching</h3>
+
+  <br>
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Month</th>
+                <th scope="col">Date</th>
+                <th scope="col">Time</th>
+                <th scope="col">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">May</th>
+                <td>10th</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">May</th>
+                <td>17th</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">May</th>
+                <td>24th</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">May</th>
+                <td>31st</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">June</th>
+                <td>2nd</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">June</th>
+                <td>7th</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">June</th>
+                <td>4th</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+              <tr>
+                <th scope="row">June</th>
+                <td>2nd</td>
+                <td>18:00</td>
+                <td>Vanier Turf Field (<a href="#" data-toggle="modal" data-target="#LocationPopup">details</a>)</td>
+              </tr>
+  
             </tbody>
           </table>
+		  	<button type="button" class="btn btn-link" disabled>Info:</button>
+		  <a tabindex="0" class="btn btn-secondary" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Event is scheduled" data-content="We are planning on meeting on this day.">Scheduled</a>
+		  <a tabindex="0" class="btn btn-success" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Event is confirmed" data-content="We have clear skies! We will be meeting on this day.">Confirmed</a>
+		  <a tabindex="0" class="btn btn-warning" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Weather permitting" data-content="We are planning on meeting, but the weather could become an issue. Be prepared for a cancellation.">Weather Permitting</a>
+		  <a tabindex="0" class="btn btn-danger" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Event is canceled" data-content="The skies have failed us. There will be no meeting on this day.">Canceled</a>
+</p>
+</div> 
+
+
         </div>
       </div>
     </div>
@@ -458,6 +567,27 @@
   <!-- Plugin JavaScript -->
   <script src="cvac/jquery-easing/jquery.easing.min.js"></script>
   <script src="js/scrolling-nav.js"></script>
+
+<div class="modal fade" id="LocationPopup" tabindex="-1" role="dialog" aria-labelledby="LocationPopupTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Meeting Location</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	  <h4>Vanier Turf Field</h4>
+	  <p>Address: 3001 Vanier Dr, Courtenay, BC V9N 5Y2</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.081679470789!2d-125.0035263839567!3d49.70926397937998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813e1820d02b9%3A0xf6c7258069bc3ae!2sVanier+Turf+Field!5e0!3m2!1sen!2sca!4v1557270430552!5m2!1sen!2sca&ll=" width="460" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+  </div>
+</div>
 
 </body>
 
