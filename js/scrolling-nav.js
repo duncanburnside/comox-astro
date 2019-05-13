@@ -29,5 +29,7 @@
 })(jQuery); // End of use strict
 
 $(function () {
-  $('[data-toggle="popover"]').popover()
+  $('.example-popover').popover({
+    container: 'body'
+  })
 })
