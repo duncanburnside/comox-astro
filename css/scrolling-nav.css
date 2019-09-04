@@ -7,8 +7,3 @@ header.masthead {
 section {
   padding: 100px 0;
 }
-
-div.col-sm-6:nth-child(1) > table:nth-child(3) > tbody:nth-child(2) > tr:nth-child(3)
-{
-  text-decoration: line-through;
-}
