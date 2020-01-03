@@ -7,3 +7,10 @@ header.masthead {
 section {
   padding: 100px 0;
 }
+
+comox-astro-table-date
+{width:100px;}
+comox-astro-table-day
+{width:100px;}
+comox-astro-table-time
+{width:100px;}
